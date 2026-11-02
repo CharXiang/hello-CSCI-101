@@ -1,6 +1,7 @@
+TOOL_NAME = "Number Guesser"
 import random
 
-def guess_number():
+def run():
     print("Welcome to the number guessing game!")
     print("I'm thinking of a number between 1 and 100.")
     num = random.randint(1, 100)
@@ -16,4 +17,3 @@ def guess_number():
             guess = int(input("Enter your guess: "))
     guesses += 1
     print(f"Congratulations! You've guessed the number {num} in {guesses} guesses.")
-guess_number()
