@@ -1,4 +1,4 @@
-#Simple Interest Calculator
+tool_kit = Simple Interest Calculator
 def run():
     def calculate_simple_interest(principal, rate, time):
     
