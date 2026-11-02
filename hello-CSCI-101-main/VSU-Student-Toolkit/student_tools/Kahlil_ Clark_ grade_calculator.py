@@ -1,8 +1,6 @@
 TOOL_NAME = "Grade Calculator"
-
 def run():
-
- print("Welcome to the Grade Calculator!")
+print("Welcome to the Grade Calculator!")
 score = float(input("Enter your score: "))
 if score >= 90:
   print("Your grade is A")
