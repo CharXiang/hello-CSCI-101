@@ -1,4 +1,4 @@
-tool_kit = Simple Interest Calculator
+TOOL_NAME = " Simple Interest Calculator"
 def run():
     def calculate_simple_interest(principal, rate, time):
     
